@@ -11,7 +11,7 @@
 		"homepage": "https://modrinth.com/mod/minimal-item-frames",
 		"sources": "https://github.com/kryparnold/minimal-item-frames"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/minimalitemframes/icon.png",
 	"environment": "*",
 	"entrypoints": {
