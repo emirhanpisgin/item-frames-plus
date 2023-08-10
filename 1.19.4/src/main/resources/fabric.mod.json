@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "minimalitemframes",
+	"version": "${version}",
+	"name": "Minimal Item Frames",
+	"description": "This mod makes item frame's hitboxes smaller so you can open your chests easily!",
+	"authors": [
+		"Kryp Arnold"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/minimal-item-frames",
+		"sources": "https://github.com/kryparnold/minimal-item-frames/tree/1.19.4"
+	},
+	"license": "MIT",
+	"icon": "assets/minimalitemframes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kryp.minimalitemframes.MinimalItemFrames"
+		],
+		"fabric-datagen": [
+			"com.kryp.minimalitemframes.MinimalItemFramesDataGenerator"
+		]
+	},
+	"mixins": [
+		"minimalitemframes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
