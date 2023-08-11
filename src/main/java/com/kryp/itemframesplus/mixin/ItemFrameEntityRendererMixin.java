@@ -13,7 +13,7 @@ import net.minecraft.client.render.entity.ItemFrameEntityRenderer;
 @Environment(EnvType.CLIENT)
 @Mixin(ItemFrameEntityRenderer.class)
 public class ItemFrameEntityRendererMixin {
-    @ModifyVariable(method = "render()V", at = @At("STORE"), ordinal = 0)
+    @ModifyVariable(method = "render", at = @At("STORE"), ordinal = 0)
     private boolean modifyVisibility(boolean x, ItemFrameEntity itemFrameEntity) {
         if(ItemFramesPlusConfig.getOptions().getInvisibleItemFrames().equals(false)){
             return false;
