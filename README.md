@@ -1,5 +1,5 @@
-# Minimal Item Frames
-Minecraft Fabric Mod that makes item frame's hitboxes smaller.
+# Item Frames Plus
+Minecraft Fabric Mod makes item frames more useful by shrinking hitboxes and making them invisible.
 # How To Install
 
 - Go to https://modrinth.com/mod/itemframesplus/versions.
