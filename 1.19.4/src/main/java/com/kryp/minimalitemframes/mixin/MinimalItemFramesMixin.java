@@ -1,4 +1,4 @@
-package com.kryp.minimalitemframes.mixin;
+package com.kryp.itemframesplus.mixin;
 
 import net.minecraft.entity.decoration.ItemFrameEntity;
 import org.spongepowered.asm.mixin.Mixin;

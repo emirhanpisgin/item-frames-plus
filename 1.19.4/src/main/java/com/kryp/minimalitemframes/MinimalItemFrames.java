@@ -1,4 +1,4 @@
-package com.kryp.minimalitemframes;
+package com.kryp.itemframesplus;
 
 import net.fabricmc.api.ModInitializer;
 

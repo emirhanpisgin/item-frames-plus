@@ -1,29 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "minimalitemframes",
+	"id": "itemframesplus",
 	"version": "${version}",
-	"name": "Minimal Item Frames",
-	"description": "This mod makes item frame's hitboxes smaller so you can open your chests easily!",
+	"name": "ItemFrames+",
+	"description": "This mod makes item frames more useful by shrinking hitboxes and making them invisible.",
 	"authors": [
 		"Kryp Arnold"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/minimal-item-frames",
-		"sources": "https://github.com/kryparnold/minimal-item-frames"
+		"homepage": "https://modrinth.com/mod/item-frames-plus",
+		"sources": "https://github.com/kryparnold/item-frames-plus"
 	},
 	"license": "MIT",
-	"icon": "assets/minimalitemframes/icon.png",
+	"icon": "assets/itemframesplus/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.kryp.minimalitemframes.MinimalItemFrames"
+			"com.kryp.itemframesplus.ItemFramesPlus"
+		],
+		"client": [
+			"com.kryp.itemframesplus.ItemFramesPlusClient"
 		],
 		"fabric-datagen": [
-			"com.kryp.minimalitemframes.MinimalItemFramesDataGenerator"
+			"com.kryp.itemframesplus.ItemFramesPlusDataGenerator"
 		]
 	},
 	"mixins": [
-		"minimalitemframes.mixins.json"
+		"itemframesplus.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

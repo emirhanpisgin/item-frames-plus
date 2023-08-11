@@ -1,0 +1,7 @@
+{
+  "command.itemframesplus.invisibleItemFrames.alreadySet": "invisibleItemFrames zaten şuna ayarlı: ",
+  "command.itemframesplus.invisibleItemFrames.nowSetTo": "invisibleItemFrames şuna ayarlandı: ",
+  "command.itemframesplus.invisibleItemFrames.setTo": "invisibleItemFrames şuna ayarlı",
+
+  "util.itemframesplus.cantChangeVisibility": "invisibleItemFrames şuna ayarlı olduğu sürece eşya çerçevelerinin görünürlüğünü değiştiremezsin: false"
+}
