@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/item-frames-plus",
-		"sources": "https://github.com/kryparnold/item-frames-plus"
+		"sources": "https://github.com/kryparnold/item-frames-plus",
+		"issues": "https://github.com/kryparnold/item-frames-plus/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/itemframesplus/icon.png",

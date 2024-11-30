@@ -1,7 +1,6 @@
 package com.kryp.itemframesplus.mixin;
 
 import com.kryp.itemframesplus.ItemFramesPlusConfig;
-import com.kryp.itemframesplus.util.ItemFramesPlusPlayerPreferences;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.entity.damage.DamageSource;
