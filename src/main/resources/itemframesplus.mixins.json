@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.kryp.itemframesplus.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [],
+	"client": [
+		"ItemFrameEntityMixinClient",
+		"ItemFrameEntityRendererMixin"
+	],
+	"server": [
+		"ItemFrameEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

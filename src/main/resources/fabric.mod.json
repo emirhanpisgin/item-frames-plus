@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "itemframesplus",
+	"version": "${version}",
+	"name": "ItemFrames+",
+	"description": "This mod makes item frames more useful by shrinking hitboxes and making them invisible.",
+	"authors": [
+		"Kryp Arnold"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/item-frames-plus",
+		"sources": "https://github.com/emirhanpisgin/item-frames-plus",
+		"issues": "https://github.com/emirhanpisgin/item-frames-plus/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/itemframesplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kryp.itemframesplus.ItemFramesPlus"
+		],
+		"client": [
+			"com.kryp.itemframesplus.ItemFramesPlusClient"
+		]
+	},
+	"mixins": [
+		"itemframesplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
