@@ -12,7 +12,6 @@ import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.command.CommandRegistryAccess;
 import net.minecraft.text.Text;
 
-@Environment(EnvType.CLIENT)
 public class InvisibleItemFramesCommand {
     public static int run(CommandContext<FabricClientCommandSource> context) {
 
